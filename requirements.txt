@@ -6,3 +6,4 @@ langgraph
 wikipedia
 langchain-community
 langchain_google_genai
+pytest
