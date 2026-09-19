@@ -26,6 +26,9 @@ jobs:
       - name: Run Script
         run: |
           python app.py
+      - name: Run PyTests
+        run: |
+          pytest --verbose
       - name: Run Tests
         run: |
           pytest test_app.py
