@@ -16,6 +16,9 @@ def add_numbers(a, b):
     return a + b
 
 @tool 
-def get_weather(city):
+def get_weather(city: str): -> str:
+    """Fetches the current weather for a given city."""
     # Placeholder for weather fetching logic
     return f"The weather in {city} is sunny."
+
+print("weather: "+get_weather("New York"))
