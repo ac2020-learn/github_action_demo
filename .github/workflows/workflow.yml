@@ -23,6 +23,9 @@ jobs:
         with:
           python-version: '3.x'
       - run: pip install -r requirements.txt
+      - name: Run Script
+        run: |
+          python app.py
       - name: Run Tests
         run: |
-          python test.py
+          pytest test_app.py
