@@ -15,5 +15,5 @@ def test_divide_numbers():
         assert str(e) == "Cannot divide by zero."
 
 def test_get_weather():
-    assert get_weather("New York") == "The weather in New York is sunny."
-    assert get_weather("Los Angeles") == "The weather in Los Angeles is sunny."
+    assert get_weather.invoke("New York") == "The weather in New York is sunny."
+    assert get_weather.invoke("Los Angeles") == "The weather in Los Angeles is sunny."

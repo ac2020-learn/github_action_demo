@@ -21,4 +21,4 @@ def get_weather(city: str) -> str:
     # Placeholder for weather fetching logic
     return f"The weather in {city} is sunny."
 
-print("weather: "+get_weather("New York"))
+print("weather: "+get_weather.invoke("New York"))
